@@ -46,7 +46,7 @@ def create_mandelbrot_image_gpu(xmin, xmax, ymin, ymax, width, height, max_iter,
 # Parameters
 xmin, xmax, ymin, ymax = -2.0, 1.0, -1.5, 1.5
 img_width, img_height = 16000, 12000
-max_iter = 64000  # Maximum iterations increased to 1023
+max_iter = 1023
 filename = "output_mandelbrot_gpu.png"
 
 # Create and save the image using GPU
